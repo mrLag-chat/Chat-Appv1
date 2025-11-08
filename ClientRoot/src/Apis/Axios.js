@@ -2,7 +2,7 @@ import axios from "axios"
 import { toast } from "react-hot-toast"
 
 let api = axios.create({
-    baseURL: 'https://chat-app-server-wek3.onrender.com',
+    baseURL: 'https://chat-app-server-wek3.onrender.com/api',
     //timeout: 5000,
     headers: {
         'Content-Type': 'application/json',
