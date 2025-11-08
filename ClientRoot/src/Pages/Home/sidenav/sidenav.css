@@ -1,0 +1,44 @@
+/* Sidenav Styles */
+.sidenav {
+  width: 320px;
+  height: 100vh;
+  background: #F6F7F8;
+  border-right: 1px solid #E1E4E8;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav-header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.search-section {
+  margin-bottom: 16px;
+}
+
+.user-list-section {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+/* Custom scrollbar for user list */
+.user-list-section::-webkit-scrollbar {
+  width: 4px;
+}
+
+.user-list-section::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.user-list-section::-webkit-scrollbar-thumb {
+  background: #E1E4E8;
+  border-radius: 2px;
+}
+
+.user-list-section::-webkit-scrollbar-thumb:hover {
+  background: #A0A0A0;
+}
