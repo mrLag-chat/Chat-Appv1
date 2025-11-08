@@ -10,7 +10,7 @@ export const initializeSocket = (userId) => {
     }
 
     console.log("🔌 Creating new socket connection");
-    socket = io("http://localhost:5000", {
+    socket = io("https://chat-app-server-wek3.onrender.com", {
         // query: { userId },
         reconnection: true,
         reconnectionAttempts: 5,
